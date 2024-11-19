@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.switch{
+    border-color: transparent !important;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#scrolldiv {
+    overflow-x: auto;
+}
+
